@@ -1,0 +1,51 @@
+.all {
+  background-color: #eee;
+  color: #333;
+  font-family: inherit;
+}
+
+.btn {
+  border: none;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+
+.game-name {
+  position: absolute;
+  top: 30%;
+  right: 37%;
+  font-size: 2rem;
+  border: none;
+  padding: 2rem 3rem;
+}
+
+.number {
+  position: absolute;
+  bottom: 15%;
+  left: 40%;
+  font-size: 6rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.input-title {
+  position: absolute;
+  bottom: 45%;
+  left: 39%;
+  font-size: 3rem;
+}
+
+.guess {
+  position: absolute;
+  bottom: 25%;
+  left: 38%;
+  background: none;
+  border: 4px solid #eee;
+  color: inherit;
+  font-size: 5rem;
+  padding: 2.5rem;
+  width: 20rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+}
